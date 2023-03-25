@@ -1,0 +1,151 @@
+/* Set default margin and padding to 0 */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set box-sizing to border-box to include padding and borders in the element's total width and height */
+* {
+  box-sizing: border-box;
+}
+
+/* Style for the body */
+body {
+  font-size: 21px;
+  color:black;
+  align-items: center;
+}
+
+/* Style for the header */
+.navbarbox1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+}
+
+.navbarbox1prop img {
+width: 118px;
+height: 33px;
+flex: none;
+order: 0;
+flex-grow: 0;
+height: 35px;
+}
+
+/* Style for the navigation */
+.navbarbox2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  background-color: #f7f7f7;
+  border-bottom: 1px solid #ccc;
+  padding: 0 20px;
+}
+
+.navtext {
+  margin: 0 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #555;
+  cursor: pointer;
+}
+
+/* Style for the navbarbox3 */
+.navbarbox3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+}
+
+.nav3button {
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #555;
+  background-color: #f7f7f7;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+
+.maintext h1 {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  color: black;
+}
+
+
+.formaintext p {
+  font-size: 16px;
+  text-align: center;
+  color: black;
+}
+
+/* Style for the main picture */
+.mainpic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 350px;
+  background-color: #fff;
+}
+
+.mainpic img {
+  height: 100%;
+}
+
+
+/* Style for the footer */
+.footconfig {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  background-color: #f7f7f7;
+  border-top: 1px solid #ccc;
+  padding: 0 20px;
+}
+
+.footconfig div {
+  width: 20%;
+}
+
+.footconfig img {
+  height: 50px;
+}
+
+
+.footfortext {
+text-align: center;
+}
+
+.text1 {
+  font-size: 15px;
+
+}
+
+.text2 {
+  font-size: 15px;
+}
+
+.text3 {
+  font-size: 15px;
+}
+
+.text4 {
+  font-size: 15px;
+}
+
+.text5 {
+  font-size: 15px;
+}
